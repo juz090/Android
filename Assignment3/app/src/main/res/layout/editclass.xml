@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Class"
+        android:textSize="25dip"
+        android:gravity="center"
+        android:layout_margin="15dip"/>
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "/>
+    <EditText android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Class #: "
+        />
+    <EditText android:id="@+id/editNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"/>
+    <TextView
+        android:id="@+id/editStudents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Students: "
+        />
+    <Button android:id="@+id/btnAddStudent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:layout_marginTop="15dip"/>
+    <Button android:id="@+id/btnSave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="15dip"/>
+    <Button android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="15dip"/>
+</LinearLayout>

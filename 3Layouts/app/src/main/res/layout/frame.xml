@@ -1,0 +1,24 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:text="Chapman.edu"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"/>
+</FrameLayout>
+    <!--
+    FrameLayout is designed to block out an area on the screen to display a single item.
+    Generally, FrameLayout should be used to hold a single child view,
+    because it can be difficult to organize child views in a way that's scalable
+    to different screen sizes without the children overlapping each other. You can, however,
+    add multiple children to a FrameLayout and control their position within the FrameLayout by assigning gravity to each child, using the android:layout_gravity attribute.
+     -->

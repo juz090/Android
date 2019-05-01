@@ -1,0 +1,17 @@
+EatAtJoes
+714-555-1234
+www.joes.com
+4
+American
+
+W's China Bistro
+310-792-1600
+www.wschinabistro.com
+5
+Asian
+
+El Burrito Jr.
+310-316-5058
+www.elburritojr.com
+4
+Mexican

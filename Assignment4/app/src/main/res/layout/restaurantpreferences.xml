@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <CheckBox android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Phone"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Website"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/catagory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Catagory"
+        android:onClick="onCheckboxClicked"/>
+    <Button android:id="@+id/btnUpdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="Update"/>
+</LinearLayout>

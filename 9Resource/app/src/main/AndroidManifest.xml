@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.chapman.dev.a9resource">
+
+<application android:icon="@drawable/ic_launcher_background">
+
+
+    <activity android:name=".XMLResourceDemo" android:label="XMLResourceDemo">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+
+</application>
+</manifest>

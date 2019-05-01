@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="25dip"
+        android:gravity="center"
+        android:layout_margin="15dip"/>
+
+    <TextView android:id="@+id/date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Released"
+        android:layout_margin="15dip"
+        android:textSize="18dip"/>
+
+    <TextView android:id="@+id/file"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="File Location"
+        android:layout_margin="15dip"
+        android:textSize="18dip"/>
+
+</LinearLayout>

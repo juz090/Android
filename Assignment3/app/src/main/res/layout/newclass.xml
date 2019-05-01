@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a Class"
+        android:textSize="25dip"
+        android:gravity="center"
+        android:layout_margin="15dip"/>
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Name: "/>
+    <EditText android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Class #: "
+        />
+    <EditText android:id="@+id/num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"/>
+    <Button android:id="@+id/btnInsert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:layout_marginTop="15dip"/>
+    <Button android:id="@+id/btnClear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="15dip"/>
+</LinearLayout>
